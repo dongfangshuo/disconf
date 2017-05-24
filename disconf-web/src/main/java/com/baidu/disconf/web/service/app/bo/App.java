@@ -13,7 +13,7 @@ import com.github.knightliao.apollo.db.bo.BaseObject;
  * @author liaoqiqi
  * @version 2014-6-16
  */
-@Table(db = DB.DB_NAME, name = "app", keyColumn = Columns.APP_ID)
+@Table(db = DB.DB_NAME, name = "disconf_app", keyColumn = Columns.APP_ID)
 public class App extends BaseObject<Long> {
 
     protected static final Logger LOG = LoggerFactory.getLogger(App.class);

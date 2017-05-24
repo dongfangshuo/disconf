@@ -12,7 +12,7 @@ import com.github.knightliao.apollo.db.bo.BaseObject;
  * @author liaoqiqi
  * @version 2013-11-28
  */
-@Table(db = DB.DB_NAME, name = "user", keyColumn = Columns.USER_ID)
+@Table(db = DB.DB_NAME, name = "disconf_user", keyColumn = Columns.USER_ID)
 public class User extends BaseObject<Long> {
 
     private static final long serialVersionUID = 1L;

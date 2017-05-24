@@ -10,7 +10,7 @@ import com.github.knightliao.apollo.db.bo.BaseObject;
  * @author weiwei
  * @date 2013-12-24 下午2:43:37
  */
-@Table(db = DB.DB_NAME, keyColumn = Columns.ROLE_ID, name = "role")
+@Table(db = DB.DB_NAME, keyColumn = Columns.ROLE_ID, name = "disconf_role")
 public class Role extends BaseObject<Integer> {
 
     private static final long serialVersionUID = 1L;

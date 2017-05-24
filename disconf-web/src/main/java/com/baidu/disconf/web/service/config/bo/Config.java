@@ -13,7 +13,7 @@ import lombok.Data;
  * @version 2014-6-16
  */
 @Data
-@Table(db = DB.DB_NAME, name = "config", keyColumn = Columns.CONFIG_ID)
+@Table(db = DB.DB_NAME, name = "disconf_config", keyColumn = Columns.CONFIG_ID)
 public class Config extends BaseObject<Long> {
 
     /**
